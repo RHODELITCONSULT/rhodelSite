@@ -101,7 +101,7 @@
                         <div class="service-icon">
                             <i class="fa fa-solar-panel fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Solar Panels</h4>
+                        <h4 class="mb-3">Solar for Homes</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -109,12 +109,12 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded overflow-hidden">
-                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/fence-1.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/img-600x400-4.jpg') }}" alt="">
                     <div class="position-relative p-4 pt-0">
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Electric Fence </h4>
+                        <h4 class="mb-3">Clean Energy</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="service-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Hydropower Plants</h4>
+                        <h4 class="mb-3">Solar for Commercial Use</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -135,12 +135,12 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item rounded overflow-hidden">
-                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/img-600x400-4.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/cctv-portfolio-3.jpg') }}" alt="">
                     <div class="position-relative p-4 pt-0">
                         <div class="service-icon">
                             <i class="fa fa-solar-panel fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Solar Panels</h4>
+                        <h4 class="mb-3">Home Security</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -148,12 +148,12 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded overflow-hidden">
-                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/img-600x400-5.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/cctv-portfolio-6.jpg') }}" alt="">
                     <div class="position-relative p-4 pt-0">
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Wind Turbines</h4>
+                        <h4 class="mb-3">Community Security</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -161,12 +161,131 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item rounded overflow-hidden">
-                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/img-600x400-6.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/cctv-portfolio-2.jpg') }}" alt="">
                     <div class="position-relative p-4 pt-0">
                         <div class="service-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Hydropower Plants</h4>
+                        <h4 class="mb-3">Secure Your Business</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/ac-service-1.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-solar-panel fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Maintenance</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/ac-service-6.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-wind fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Heating Solutions</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/ac-service-2.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-lightbulb fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Cooling Solutions</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/fence-1.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-solar-panel fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Home Security</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/fence-6.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-wind fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Solar Fence</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/fence-5.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-lightbulb fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Secure Your Business</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/it-project-5.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-solar-panel fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Digital Solutions</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/it-project-2.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-wind fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">IT Supports</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/it-project-4.jpg') }}" alt="">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-lightbulb fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Consultation</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
