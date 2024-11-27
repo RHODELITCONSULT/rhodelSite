@@ -19,12 +19,12 @@
     <div class="container">
         <div class="mx-auto mb-5 text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
             <h6 class="text-primary">Our Services</h6>
-            <h1 class="mb-4">We Are Pioneers In The World Of Renewable Energy</h1>
+            <h1 class="mb-4">We Are Pioneers In The World Of Electric Fencing</h1>
         </div>
         <div class="row g-4">
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="overflow-hidden rounded service-item">
-                    <img class="img-fluid" src="{{asset('assets/Frontend/img/img-600x400-1.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/Frontend/img/fence-1.jpg')}}" alt="">
                     <div class="p-4 pt-0 position-relative">
                         <div class="service-icon">
                             <i class="fa fa-solar-panel fa-3x"></i>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="overflow-hidden rounded service-item">
-                    <img class="img-fluid" src="{{asset('assets/Frontend/img/img-600x400-2.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/Frontend/img/fence-2.jpg')}}" alt="">
                     <div class="p-4 pt-0 position-relative">
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="overflow-hidden rounded service-item">
-                    <img class="img-fluid" src="{{asset('assets/Frontend/img/img-600x400-3.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/Frontend/img/fence-3.jpg')}}" alt="">
                     <div class="p-4 pt-0 position-relative">
                         <div class="service-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="overflow-hidden rounded service-item">
-                    <img class="img-fluid" src="{{asset('assets/Frontend/img/img-600x400-4.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/Frontend/img/fence-4.jpg')}}" alt="">
                     <div class="p-4 pt-0 position-relative">
                         <div class="service-icon">
                             <i class="fa fa-solar-panel fa-3x"></i>
@@ -76,7 +76,7 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="overflow-hidden rounded service-item">
-                    <img class="img-fluid" src="{{asset('assets/Frontend/img/img-600x400-5.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/Frontend/img/fence-5.jpg')}}" alt="">
                     <div class="p-4 pt-0 position-relative">
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
@@ -89,7 +89,7 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="overflow-hidden rounded service-item">
-                    <img class="img-fluid" src="{{asset('assets/Frontend/img/img-600x400-6.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/Frontend/img/fence-6.jpg')}}" alt="">
                     <div class="p-4 pt-0 position-relative">
                         <div class="service-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
@@ -143,18 +143,18 @@
             <div class="text-center testimonial-item">
                 <div class="testimonial-img position-relative">
                     <img class="mx-auto mb-5 img-fluid rounded-circle" src="{{asset('assets/Frontend/img/testimonial-3.jpg')}}">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="text-white fa fa-quote-left"></i>
-                        </div>
+                    <div class="btn-square bg-primary rounded-circle">
+                        <i class="text-white fa fa-quote-left"></i>
                     </div>
-                    <div class="p-4 text-center rounded testimonial-text">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
+                </div>
+                <div class="p-4 text-center rounded testimonial-text">
+                    <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                    <h5 class="mb-1">Client Name</h5>
+                    <span class="fst-italic">Profession</span>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+</div>
+<!-- Testimonial End -->
 @endsection

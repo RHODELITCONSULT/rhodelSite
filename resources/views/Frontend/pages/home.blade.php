@@ -109,12 +109,12 @@
             </div>
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded overflow-hidden">
-                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/img-600x400-2.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/Frontend/img/fence-1.jpg') }}" alt="">
                     <div class="position-relative p-4 pt-0">
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Wind Turbines</h4>
+                        <h4 class="mb-3">Electric Fence </h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -237,7 +237,7 @@
             </div>
             <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('assets/Frontend/img/feature.jpg') }}" style="object-fit: cover;" alt="">
+                    <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('assets/Frontend/img/fence-3.jpg') }}" style="object-fit: cover;" alt="">
                 </div>
             </div>
         </div>
@@ -360,7 +360,7 @@
         <div class="row g-0 mx-lg-0">
             <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('assets/Frontend/img/quote.jpg') }}" style="object-fit: cover;" alt="">
+                    <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('assets/Frontend/img/ac-feature.jpg') }}" style="object-fit: cover;" alt="">
                 </div>
             </div>
             <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">

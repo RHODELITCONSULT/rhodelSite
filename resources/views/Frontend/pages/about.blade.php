@@ -72,7 +72,7 @@
         <div class="row g-0 mx-lg-0">
             <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('assets/Frontend/img/about.jpg') }}" style="object-fit: cover;" alt="">
+                    <img class="position-absolute img-fluid w-100 h-100" src="{{ asset('assets/Frontend/img/cctv-feature.jpg') }}" style="object-fit: cover;" alt="">
                 </div>
             </div>
             <div class="py-5 col-lg-6 about-text wow fadeIn" data-wow-delay="0.5s">

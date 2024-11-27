@@ -90,14 +90,14 @@ class BannersController extends Controller
                'banner_image' => 'required',
            ];
   
-            $customMessages = [
-                'type.required' => 'Banner Type is required',
-                'url.required' => 'Banner URL is required',
-                'banner_image' => 'Unique Banner Image is required',
-            ];
+        //     $customMessages = [
+        //         'type.required' => 'Banner Type is required',
+        //         'url.required' => 'Banner URL is required',
+        //         'banner_image' => 'Unique Banner Image is required',
+        //     ];
 
-            $this->validate($request,$rules,$customMessages);
-         }
+        //     $this->validate($request,$rules,$customMessages);
+        //  }
 
             // Unload Banner Image
             if ($request->hasFile('banner_image')){
