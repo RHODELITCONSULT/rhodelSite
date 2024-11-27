@@ -24,9 +24,9 @@
                     <div class="p-lg-5 ps-lg-0">
                         <h6 class="text-primary">Contact Us</h6>
                         <h1 class="mb-4">Feel Free To Contact Us</h1>
-                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
+                        <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
                             with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're
-                            done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                            done. </p> -->
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">

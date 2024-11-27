@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator as FacadesValidator;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Models\AdminsRole;
 use App\Models\Subscriber;
@@ -12,8 +14,8 @@ use App\Models\Admin;
 use App\Models\Brand;
 use App\Models\User;
 use App\Models\Rating;
-use Auth;
-use Validator;
+//use Auth;
+//use Validator;
 use Hash;
 use Image;
 use Session;
@@ -21,7 +23,7 @@ use Session;
 class AdminController extends Controller
 {
    public function dashboard(){
-    dd(true);
+   
         return view('admin.dashboard');
     }
 
@@ -35,13 +37,18 @@ class AdminController extends Controller
             'password' => 'required|max:30',
          ];
 
-         $customMessages = [
-            'email.required' => "Email is required",
-            'email.email' => 'Valid Email is required',
-            'password.password' => 'Password is required',
-         ];
+         // $customMessages = [
+         //    'email.required' => "Email is required",
+         //    'email.email' => 'Valid Email is required',
+         //    'password.password' => 'Password is required',
+         // ];
 
-         $this->validate($request,$rules,$customMessages);
+         // $this->validate($request,$rules,$customMessages);
+
+         $validation = FacadesValidator::make(request()->all(), $rules);
+         if ($validation->fails()) {
+            return back()->with('error', $validation->errors()->first());
+         }
 
 
           if(Auth::guard('admin')->attempt(['email'=>$data['email'],'password'=>$data['password']])){

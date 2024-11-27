@@ -88,13 +88,15 @@ class CategoryController extends Controller
                 ];
             }
 
-            $customMessages = [
-                'category_name.required' => 'Category Name is required',
-                'url.required' => 'Category URL is required',
-                'url.unique' => 'Unique Category URL is required',
-            ];
+            // $customMessages = [
+            //     'category_name.required' => 'Category Name is required',
+            //     'url.required' => 'Category URL is required',
+            //     'url.unique' => 'Unique Category URL is required',
+            // ];
 
-            $this->validate($request, $rules, $customMessages);
+            // $this->validate($request, $rules, $customMessages);
+
+
 
             // Unload Category Image
             if ($request->hasFile('category_image')) {
@@ -113,18 +115,18 @@ class CategoryController extends Controller
             } else {
                 $category->category_image = "";
             }
-            if (empty($data['category_discount'])) {
-                $data['category_discount'] = 0;
-                if ($id != "") {
-                    $categoryProducts = Product::where('category_id', $id)->get()->toArray();
-                    foreach ($categoryProducts as $key => $product) {
-                        // echo "<pre>"; echo "<pre>"; print_r($product); die;
-                        if ($product['discount_type'] == "category") {
-                            Product::where('id', $product['id'])->update(['discount_type' => '', 'final_price' => $product['product_price']]);
-                        }
-                    }
-                }
-            }
+            // if (empty($data['category_discount'])) {
+            //     $data['category_discount'] = 0;
+            //     if ($id != "") {
+            //         $categoryProducts = Product::where('category_id', $id)->get()->toArray();
+            //         foreach ($categoryProducts as $key => $product) {
+            //             // echo "<pre>"; echo "<pre>"; print_r($product); die;
+            //             if ($product['discount_type'] == "category") {
+            //                 Product::where('id', $product['id'])->update(['discount_type' => '', 'final_price' => $product['product_price']]);
+            //             }
+            //         }
+            //     }
+            // }
 
             $category->category_name = $data['category_name'];
             $category->parent_id = $data['parent_id'];

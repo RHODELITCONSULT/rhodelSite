@@ -85,13 +85,13 @@ class BrandController extends Controller
             }
 
 
-            $customMessages = [
-                'brand_name.required' => 'Brand Name is required',
-                // 'url.required' => 'Brand URL is required',
-                'url.unique' => 'Unique Brand URL is required',
-            ];
+            // $customMessages = [
+            //     'brand_name.required' => 'Brand Name is required',
+            //     // 'url.required' => 'Brand URL is required',
+            //     'url.unique' => 'Unique Brand URL is required',
+            // ];
 
-            $this->validate($request,$rules,$customMessages);
+            // $this->validate($request,$rules,$customMessages);
 
             // Unload Brand Image
             if ($request->hasFile('brand_image')){
@@ -127,18 +127,18 @@ class BrandController extends Controller
             $brand->brand_logo = "";
          }
          // Remove Brand Discount all products belongs to specific Brand
-         if(empty($data['brand_discount'])){
-            $data['brand_discount'] = 0;
-            if($id!=""){
-                $brandProducts = Product::where('brand_id',$id)->get()->toArray();
-                foreach ($brandProducts as $key => $product) {
-                    // echo "<pre>"; echo "<pre>"; print_r($product); die;
-                    if($product['discount_type']=="brand"){
-                        Product::where('id',$product['id'])->update(['discount_type'=>'','final_price'=>$product['product_price']]);
-                    }
-                }
-            }
-         }
+        //  if(empty($data['brand_discount'])){
+        //     $data['brand_discount'] = 0;
+        //     if($id!=""){
+        //         $brandProducts = Product::where('brand_id',$id)->get()->toArray();
+        //         foreach ($brandProducts as $key => $product) {
+        //             // echo "<pre>"; echo "<pre>"; print_r($product); die;
+        //             if($product['discount_type']=="brand"){
+        //                 Product::where('id',$product['id'])->update(['discount_type'=>'','final_price'=>$product['product_price']]);
+        //             }
+        //         }
+        //     }
+        //  }
 
          $brand->brand_name = $data['brand_name'];
          $brand->brand_discount = $data['brand_discount'];

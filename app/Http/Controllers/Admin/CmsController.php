@@ -1,13 +1,16 @@
 <?php
 
+//use Illuminate\Support\Facades\Validator as FacadesValidator;
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+
+use App\Http\Controllers\Admin\FacadesValidator;
 use App\Models\CmsPage;
 use App\Models\AdminsRole;
 use Illuminate\Http\Request;
 use Session;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 
 class CmsController extends Controller
 {
@@ -86,16 +89,21 @@ class CmsController extends Controller
                 'url' => 'required',
                 'description' => 'required',
             ];
-            $customMessages = [
-                'title.required' => 'Page title is required',
-                'url.required' => 'Page URL is required',
-                'description.required' => 'Page Description is required',
-            ];
-            $this->validate($request,$rules,$customMessages);
+            // $customMessages = [
+            //     'title.required' => 'Page title is required',
+            //     'url.required' => 'Page URL is required',
+            //     'description.required' => 'Page Description is required',
+            // ];
+            // $this->validate($request,$rules,$customMessages);
+
+            // $validation = FacadesValidator::make(request()->all(), $rules);
+            // if ($validation->fails()) {
+            //     return back()->with('error', $validation->errors()->first());
+            // }
 
             $cmspage->title = $data['title'];
             $cmspage->url = $data['url'];
-            $cmspage->description = $data['description'];
+       
             $cmspage->meta_title = $data['meta_title'];
             $cmspage->meta_description = $data['meta_description'];
             $cmspage->meta_keywords = $data['meta_keywords'];

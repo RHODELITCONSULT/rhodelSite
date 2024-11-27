@@ -38,7 +38,7 @@ Route::prefix("/services")->group(function(){
     Route::get("/it-service", [ServicesController::class,'it_services'])->name('it-service');
     Route::get("/software-service", [ServicesController::class,'software_service'])->name('software-service');
     Route::get("/electric-fence", [ServicesController::class,'electric_fence'])->name('electric-fence');
-    Route::get("/cctv-service", [ServicesController::class,'cctv_service'])->name('cctv-service');
+    Route::get("/cctv-service", [ServicesController::class, 'cctv_service'])->name('cctv-service');
     Route::get("/ac-service", [ServicesController::class,'ac_service'])->name('ac-service');
 });
 
@@ -80,6 +80,29 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         Route::get('delete-category-image/{id?}', 'CategoryController@deleteCategoryImage');
         // Route::match(['get','post'],'add-edit-category/{id?}','CategoryController@addEditCategory');
         Route::match(['get', 'post'], 'add-edit-category/{id?}', [CategoryController::class, 'addEditCategory']);
+
+        // Brands
+        Route::get('brands', 'BrandController@brands');
+        Route::post('update-brand-status', 'BrandController@updateBrandStatus');
+        Route::get('delete-brand/{id?}', 'BrandController@deleteBrand');
+        Route::match(['get', 'post'], 'add-edit-brand/{id?}', 'BrandController@addEditBrand');
+        Route::get('delete-brand-image/{id?}', 'BrandController@deleteBrandImage');
+        Route::get('delete-brand-logo/{id?}', 'BrandController@deleteBrandLogo');
+
+        //Products
+        // Route::get('products','ProductsController@products');
+        Route::get('products', [ProductsController::class, 'products']);
+        Route::post('update-product-status', 'ProductsController@updateProductStatus');
+        Route::get('delete-product/{id?}', 'ProductsController@deleteProduct');
+        Route::match(['get', 'post'], 'add-edit-product/{id?}', 'ProductsController@addEditProduct');
+
+        // Product Images
+        Route::get('delete-product-image/{id?}', 'ProductsController@deleteProductImage');
+
+        // Product Video
+        Route::get('delete-product-video/{id?}', 'ProductsController@deleteProductVideo');
+
+
 
         // Banners
         Route::get('banners', 'BannersController@banners');

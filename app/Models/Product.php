@@ -18,56 +18,56 @@ class Product extends Model
         return $this->belongsTo('App\Models\Brand','brand_id');
     }
 
-    public static function productsFilters(){
-        // Product Filters
-        $productsFilters['fabricArray'] = array('Cotton','Polyester','Wool');
-        $productsFilters['sleeveArray'] = array('Full Sleeve','Half Sleeve','Short Sleeve','Sleeveless');
-        $productsFilters['patternArray'] = array('Checked','Plain','Printed','Self','Solid');
-        $productsFilters['fitArray'] = array('Regular','Slim');
-        $productsFilters['occasionArray'] = array('Casual','Formal');
-        return $productsFilters;
-    }
+    // public static function productsFilters(){
+    //     // Product Filters
+    //     $productsFilters['fabricArray'] = array('Cotton','Polyester','Wool');
+    //     $productsFilters['sleeveArray'] = array('Full Sleeve','Half Sleeve','Short Sleeve','Sleeveless');
+    //     $productsFilters['patternArray'] = array('Checked','Plain','Printed','Self','Solid');
+    //     $productsFilters['fitArray'] = array('Regular','Slim');
+    //     $productsFilters['occasionArray'] = array('Casual','Formal');
+    //     return $productsFilters;
+    // }
 
     public function images(){
         return $this->hasMany('App\Models\ProductsImage');
     }
 
-    public function attributes(){
-        return $this->hasMany('App\Models\ProductsAttribute', "product_id");
-    }
+    // public function attributes(){
+    //     return $this->hasMany('App\Models\ProductsAttribute', "product_id");
+    // }
 
-    public static function getAttributePrice($product_id,$size){
-        $attributePrice = ProductsAttribute::where(['product_id'=>$product_id,'size'=>$size])->first()->toArray();
-        // For Getting Product Discount
-        $productDetails = Product::select(['product_discount','category_id','brand_id'])->where('id',$product_id)->first()->toArray();
-        // For Getting çategory Discount
-        $categoryDetails = Category::select(['category_discount'])->where('id',$productDetails['category_id'])->first()->toArray();
-        // For Getting Brand Discount
-        $brandDetails = Brand::select(['brand_discount'])->where('id',$productDetails['brand_id'])->first()->toArray();
+    // public static function getAttributePrice($product_id,$size){
+    //     $attributePrice = ProductsAttribute::where(['product_id'=>$product_id,'size'=>$size])->first()->toArray();
+    //     // For Getting Product Discount
+    //     $productDetails = Product::select(['product_discount','category_id','brand_id'])->where('id',$product_id)->first()->toArray();
+    //     // For Getting çategory Discount
+    //     $categoryDetails = Category::select(['category_discount'])->where('id',$productDetails['category_id'])->first()->toArray();
+    //     // For Getting Brand Discount
+    //     $brandDetails = Brand::select(['brand_discount'])->where('id',$productDetails['brand_id'])->first()->toArray();
 
-        if($productDetails['product_discount']>0){
-            // 1st case if there is any Product Discount
-            $discount = $attributePrice['price']*$productDetails['product_discount']/100;
-            $discount_percent = $productDetails['product_discount'];
-            $final_price = $attributePrice['price'] - $discount;
-        }else if($categoryDetails['category_discount']>0){
-            // 2nd case if there is any Category Discount
-            $discount = $attributePrice['price']*$categoryDetails['category_discount']/100;
-            $discount_percent = $productDetails['category_discount'];
-            $final_price = $attributePrice['price'] - $discount;
-        }else if($brandDetails['brand_discount']>0){
-            // 3rd case if there is any Brand Discount
-            $discount = $attributePrice['price']*$brandDetails['brand_discount']/100;
-            $discount_percent = $productDetails['brand_discount'];
-            $final_price = $attributePrice['price'] - $discount;
-        }else{
-            // If there is no discount
-            $discount = 0;
-            $discount_percent = 0;
-            $final_price = $attributePrice['price'];
-        }
-        return array('product_price'=>$attributePrice['price'],'final_price'=>$final_price,'discount'=>$discount,'discount_percent'=>$discount_percent);
-    }
+    //     if($productDetails['product_discount']>0){
+    //         // 1st case if there is any Product Discount
+    //         $discount = $attributePrice['price']*$productDetails['product_discount']/100;
+    //         $discount_percent = $productDetails['product_discount'];
+    //         $final_price = $attributePrice['price'] - $discount;
+    //     }else if($categoryDetails['category_discount']>0){
+    //         // 2nd case if there is any Category Discount
+    //         $discount = $attributePrice['price']*$categoryDetails['category_discount']/100;
+    //         $discount_percent = $productDetails['category_discount'];
+    //         $final_price = $attributePrice['price'] - $discount;
+    //     }else if($brandDetails['brand_discount']>0){
+    //         // 3rd case if there is any Brand Discount
+    //         $discount = $attributePrice['price']*$brandDetails['brand_discount']/100;
+    //         $discount_percent = $productDetails['brand_discount'];
+    //         $final_price = $attributePrice['price'] - $discount;
+    //     }else{
+    //         // If there is no discount
+    //         $discount = 0;
+    //         $discount_percent = 0;
+    //         $final_price = $attributePrice['price'];
+    //     }
+    //     return array('product_price'=>$attributePrice['price'],'final_price'=>$final_price,'discount'=>$discount,'discount_percent'=>$discount_percent);
+    // }
 
     public static function productStatus($product_id){
         $productStatus = Product::select('status')->where('id',$product_id)->first();
@@ -79,10 +79,10 @@ class Product extends Model
         return $getProductDetails;
     }
 
-     public static function getAttributeDetails($product_id,$size){
-        $getAttributeDetails = ProductsAttribute::where(['product_id'=>$product_id,'size'=>$size])->first()->toArray();
-        return $getAttributeDetails;
-     }
+    //  public static function getAttributeDetails($product_id,$size){
+    //     $getAttributeDetails = ProductsAttribute::where(['product_id'=>$product_id,'size'=>$size])->first()->toArray();
+    //     return $getAttributeDetails;
+    //  }
 
      public static function getProductImage($product_id){
         $image = "";
