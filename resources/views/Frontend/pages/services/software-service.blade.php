@@ -30,8 +30,7 @@
                             <i class="fa fa-solar-panel fa-3x"></i>
                         </div>
                         <h4 class="mb-3">HR & PAYROLL SOFTWARE</h4>
-                        <p>HR & Payroll software automates HR tasks, improving efficiency and accuracy. It handles employee data, 
-                            time tracking, payroll calculations, tax deductions, and payslip generation, ensuring compliance with labor laws.</p>
+                        <p>HR & Payroll software automates HR tasks, improving efficiency and accuracy.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -43,8 +42,8 @@
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Wind Turbines</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <h4 class="mb-3">CRM SOFTWARE</h4>
+                        <p>CUSTOMER RELATINS MANAGEMENT software centralizes customer data and automates tasks.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -56,8 +55,8 @@
                         <div class="service-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Hydropower Plants</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <h4 class="mb-3">HOSPITAL MNGMT SOFTWARE</h4>
+                        <p>Hospital software automates tasks and improves patient care.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -69,8 +68,8 @@
                         <div class="service-icon">
                             <i class="fa fa-solar-panel fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Solar Panels</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <h4 class="mb-3">INVENTORY & POS</h4>
+                        <p>Inventory & POS software tracks stock and automates sales.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -82,7 +81,7 @@
                         <div class="service-icon">
                             <i class="fa fa-wind fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Wind Turbines</h4>
+                        <h4 class="mb-3">SCHOOL MNGMT SOFTWARE</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -95,8 +94,9 @@
                         <div class="service-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
                         </div>
-                        <h4 class="mb-3">Hydropower Plants</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <h4 class="mb-3">WAYBILL SOFTWARE</h4>
+                        <p>Waybill software automates waybill creation and tracking.
+                        </p>
                         <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
