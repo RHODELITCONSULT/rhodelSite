@@ -477,56 +477,6 @@
 <!-- Team End -->
 
 
-<!-- Testimonial Start -->
-<!-- <div class="py-5 container-xxl">
-        <div class="container">
-            <div class="mx-auto mb-5 text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="text-primary">Testimonial</h6>
-                <h1 class="mb-4">What Our Clients Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="text-center testimonial-item">
-                    <div class="testimonial-img position-relative">
-                        <img class="mx-auto mb-5 img-fluid rounded-circle" src="img/testimonial-1.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="text-white fa fa-quote-left"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 text-center rounded testimonial-text">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="text-center testimonial-item">
-                    <div class="testimonial-img position-relative">
-                        <img class="mx-auto mb-5 img-fluid rounded-circle" src="img/testimonial-2.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="text-white fa fa-quote-left"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 text-center rounded testimonial-text">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="text-center testimonial-item">
-                    <div class="testimonial-img position-relative">
-                        <img class="mx-auto mb-5 img-fluid rounded-circle" src="img/testimonial-3.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="text-white fa fa-quote-left"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 text-center rounded testimonial-text">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-<!-- Testimonial End -->
+
 
 @endsection
