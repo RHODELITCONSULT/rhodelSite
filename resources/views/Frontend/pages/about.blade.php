@@ -498,7 +498,7 @@
                 <div class="p-lg-5 pe-lg-0">
                     <h6 class="text-primary">Free Quote</h6>
                     <h1 class="mb-4">Get A Free Quote</h1>
-                    <p class="pb-2 mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                    <p class="pb-2 mb-4"></p>
                     <form>
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
