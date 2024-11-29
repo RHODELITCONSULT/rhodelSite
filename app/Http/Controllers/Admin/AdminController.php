@@ -23,8 +23,13 @@ use Session;
 class AdminController extends Controller
 {
    public function dashboard(){
-   
-        return view('admin.dashboard');
+      Session::put('page', 'dashboard');
+            $categoriesCount = Category::get()->count();
+            $productsCount = Product::get()->count();
+            $brandsCount = Brand::get()->count();
+            $usersCount = User::get()->count();
+        return view('admin.dashboard')->with(compact('categoriesCount','productsCount','brandsCount','usersCount'));
+
     }
 
     public function login(Request $request){
@@ -36,14 +41,6 @@ class AdminController extends Controller
             'email' => 'required|email|max:255',
             'password' => 'required|max:30',
          ];
-
-         // $customMessages = [
-         //    'email.required' => "Email is required",
-         //    'email.email' => 'Valid Email is required',
-         //    'password.password' => 'Password is required',
-         // ];
-
-         // $this->validate($request,$rules,$customMessages);
 
          $validation = FacadesValidator::make(request()->all(), $rules);
          if ($validation->fails()) {
@@ -127,7 +124,7 @@ class AdminController extends Controller
             'admin_image.image' => 'Valid Image is required',
         ];
 
-        $this->validate($request,$rules,$customMessages);
+      //   $this->validate($request,$rules,$customMessages);
 
          //Upload Admin Image
          if ($request->hasFile('admin_image')){

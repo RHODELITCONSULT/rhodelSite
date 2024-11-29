@@ -18,7 +18,7 @@ use Auth;
 class ProductsController extends Controller
 {
     public function products(){
-         Session::put('page','products');
+        Session::put('page','products');
         $products = Product::with('category')->get()->toArray();
         // dd($products);
 
@@ -92,12 +92,7 @@ class ProductsController extends Controller
                 
             ];
 
-            //  $customMessages = [
-            //     'category_id.required' => 'Category is required',
-            //     'product_name.required' => 'Product Name is required',
-            //     'product_name.regex' => 'Valid Product Name is required',
            
-            // $this->validate($request,$rules,$customMessages);
 
             // Upload Product Video
             if($request->hasFile('product_video')){
@@ -253,6 +248,5 @@ class ProductsController extends Controller
         return redirect()->back()->with('success_message',$message);
 
     }
-    
 
-     }
+}

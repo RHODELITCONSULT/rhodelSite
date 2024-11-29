@@ -38,7 +38,7 @@
               
               <div class="card-header">
                 <h3 class="card-title">Products</h3>
-                <a style="max-width: 150px; float:right; display: inline-block;" href="{{ url('admin/add-edit-product') }}" class="btn btn-block btn-primary">Add Product</a>
+                <a style="max-width: 150px; float:right; display: inline-block;" href="{{ url('admin/add-edit-product') }}" class="btn btn-block btn-primary">Add Service</a>
               </div>
             
               <!-- /.card-header -->

@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('product_code');
             $table->string('product_video');
             $table->text('description');
-            $table->text('search_keywords');
             $table->string('meta_title');
             $table->string('meta_description');
             $table->string('meta_keywords');

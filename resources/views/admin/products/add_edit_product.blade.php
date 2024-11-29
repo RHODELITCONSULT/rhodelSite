@@ -133,10 +133,7 @@
                     <textarea class="form-control" rows="3" id="description" name="description" placeholder="Enter Product Description">@if(!empty($product['description'])) {{ $product['description'] }} @else  {{ @old('description') }} @endif</textarea>
                   </div>
                  
-                  <!-- <div class="form-group">
-                    <label for="search_keywords">Search Keywords</label>
-                    <textarea class="form-control" rows="3" id="search_keywords" name="search_keywords" placeholder="Enter Product Search Keywords">@if(!empty($product['search_keywords'])) {{ $product['search_keywords'] }} @else  {{ @old('search_keywords') }} @endif</textarea>
-                  </div> -->
+                
                   <div class="form-group">
                     <label for="meta_title">Meta Title</label>
                     <input type="text" class="form-control" id="meta_title" name="meta_title" placeholder="Enter Meta Title" @if(!empty($product['meta_title'])) value="{{ $product['meta_title'] }}" @else value="{{ old('meta_title') }}" @endif>
