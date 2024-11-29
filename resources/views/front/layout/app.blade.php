@@ -1,18 +1,18 @@
-@include('Frontend.includes.header')
+@include('front.includes.header')
 
 <body>
     <!-- Spinner Start -->
-    @include('Frontend.includes.loader')
+    @include('front.includes.loader')
     <!-- Spinner End -->
 
 
     <!-- Navbar Start -->
-    @include('Frontend.includes.navbar')
+    @include('front.includes.navbar')
     <!-- Navbar End -->
 
     <main>
         @yield('content')
     </main>
 
-
-    @include('Frontend.includes.footer')
+    @include('front.newsletter')
+    @include('front.includes.footer')

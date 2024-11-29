@@ -1,4 +1,4 @@
-@extends('Frontend.layout.app')
+@extends('front.layout.app')
 @section('content')
 
 {{-- Page Header --}}

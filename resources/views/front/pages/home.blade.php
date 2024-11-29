@@ -1,7 +1,7 @@
-@extends('Frontend.layout.app')
+@extends('front.layout.app')
 @section('content')
 <!-- Carousel Start -->
-@include('Frontend.includes.hero')
+@include('front.includes.hero')
 <!-- Carousel End -->
 
 
