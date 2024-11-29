@@ -97,7 +97,7 @@ class BannersController extends Controller
         //     ];
 
         //     $this->validate($request,$rules,$customMessages);
-        //  }
+        }
 
             // Unload Banner Image
             if ($request->hasFile('banner_image')){

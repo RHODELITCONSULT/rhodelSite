@@ -209,7 +209,7 @@ public function addEditSubadmin(Request $request,$id=null){
                 'mobile.numeric' => 'Valid Mobile is required',
                 'image.image' => 'Valid Image is required',
             ];
-            $this->validate($request,$rules,$customMessages);
+            // $this->validate($request,$rules,$customMessages);
 
              //Upload Sub Admin Image
          if ($request->hasFile('image')){

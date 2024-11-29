@@ -102,6 +102,9 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         // Product Video
         Route::get('delete-product-video/{id?}', 'ProductsController@deleteProductVideo');
 
+        // Users
+        Route::get('users', 'Usercontroller@users');
+        Route::post('update-user-status', 'Usercontroller@updateUserStatus');
 
 
         // Banners
